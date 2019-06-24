@@ -1,0 +1,23 @@
+body {
+    background: #fefefe;
+}
+
+.mainHeader {
+    color: tomato;
+}
+
+.sectionHeader {
+    color: #1460aa;
+}
+
+.articleHeader {
+    color: aqua;
+    font-size: 24px;
+}
+
+.mainParagraph {
+    background-color:yellow;
+}
+p {
+    color: darkblue;
+}
