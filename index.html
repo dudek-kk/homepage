@@ -7,63 +7,77 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<!-- Inspiration - http://www.tejucole.com/ -->
 
 <body>
-	<header>
-		<a href="index.html">Strona główna</a>
-		<a href="day1.html">Podstrona</a>
+	<header class="main-header">
+		<h1 class="main-header__title">Let's get weird</h1>
 	</header>
-	<main>
-		<header>
-			<h1 class="mainHeader">Rafał Baran - strona domowa</h1>
-		</header>
-		<section>
-			<h2 class="sectionHeader">Kim jestem?</h2>
-			<p class="mainParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, possimus!<br>
-				<a href="#pamietnik">Wejdź do pamiętnika</a>
-
-			</p>
+	<nav class="navigation">
+		<ul class="navigation__list">
+			<li class="navigation__item"><a class="navigation__link" href="#">Portfolio</a></li>
+			<li class="navigation__item"><a class="navigation__link" href="#">Tutorials</a></li>
+			<li class="navigation__item"><a class="navigation__link" href="#">About</a></li>
+			<li class="navigation__item"><a class="navigation__link" href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<main class="main">
+		<img src="gfx/1.jpg" alt="Main image, boy reading newspaper graffiti" class="main__image">
+		<p class="main__paragraph--js"></p>
+		<section class="day">
+			<header class="day__header">Następna generacja kart NVIDII wykorzysta 7 nm proces Samsunga</header>
+			<P class="day__paragraph">Wczoraj odbyła się oficjalna prezentacja odświeżonych kart graficznych NVIDIA GeForce
+				RTX 20x0 SUPER, z kolei u nas pojawił się premierowy test GeForce RTX 2060 SUPER, którego wydajność niemalże
+				zrównała się z GeForce RTX 2070. </P>
+			<a href="#" class="day__link">Czytaj dalej</a>
+		</section>
+		<section class="day">
+			<header class="day__header day__header--hot">AMD Ryzen 5 3600 może zdetronizować procesory Intela</header>
+			<P class="day__paragraph">7 lipca zadebiutuje procesor, który ma szansę na poważnie zawalczyć z konkurencyjnymi
+				układami. AMD Ryzen 5 3600 może upokorzyć Intela Core i9-9900K.</P>
+			<a href="#" class="day__link">Czytaj dalej</a>
+		</section>
+		<section class="day">
+			<header class="day__header">Ten test to ważny krok w kierunku powrotu na Księżyc, NASA sprawdzi kapsułę Orion
+			</header>
+			<P class="day__paragraph">Amerykanie planują wrócić na Księżyc już za 5 lat, ale aby tego dokonać muszą wykonać
+				jeszcze sporo pracy. Dwa najważniejsze elementy tego projekty to rakieta SLS, która powstaje w wielkich bólach
+				oraz kapsuła załogowa Orion. </P>
+			<a href="#" class="day__link">Czytaj dalej</a>
+		</section>
+		<section class="day">
+			<header class="day__header">Deweloperzy tracą cierpliwość przez nieczyste zagrania G2A</header>
+			<P class="day__paragraph"></P>
+			<a href="#" class="day__link"></a>
+		</section>
+		<section class="day">
+			<header class="day__header">Następna generacja kart NVIDII wykorzysta 7 nm proces Samsunga</header>
+			<P class="day__paragraph">W związku z tą utratą cierpliwości namawiają graczy między innymi do piracenia gier.
+				Wszystko lepsze od kupowania w sklepie G2A? To nie pierwsza taka akcja związana bezpośrednio z popularnym
+				sklepem G2A, serwisem sprzedającym klucze do gier.</P>
+			<a href="#" class="day__link">Czytaj dalej</a>
+		</section>
+		<section class="day">
+			<header class="day__header">Redesign składanego Galaxy Folda zakończony. Oto, co Samsung zmienił</header>
+			<P class="day__paragraph">W dość nieoczekiwanym i odważnym wywiadzie, dyrektor naczelny Samsunga przyznał, że
+				niepotrzebnie naciskał na wczesną premierę składanego smartfona firmy, co przyczyniło się do niedopatrzeń
+				podczas testów i opóźnień we wprowadzeniu go na rynek. Nieoficjalne źródła przekazują, że ten przebłysk
+				szczerości spowodowany jest faktem zakończenia prac nad ulepszeniem urządzenia.</P>
+			<a href="#" class="day__link">Czytaj dalej</a>
+		</section>
+		<section class="day">
+			<header class="day__header">Windows 1.0 – tajemnicza zapowiedź starego systemu Microsoftu</header>
+			<P class="day__paragraph">Koncern Microsoft opublikował ostatnio szereg komunikatów w mediach społecznościowych, w
+				których „zapowiada” system operacyjny Windows 1.0, który miał swoją premierę w 1985 roku. Akcja może być
+				powiązana z serialem Stranger Things.</P>
+			<a href="#" class="day__link">Czytaj dalej</a>
 		</section>
 
-		<section id="pamietnik">
-			<h2 class="sectionHeader">Pamiętniczek</h2>
-			<section>
-				<h3>Jak stworzyć prawidłowego HTML-a?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum at enim sed dignissimos ratione dolore
-					praesentium in tempora, unde doloremque.</p>
-			</section>
-
-			<section>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis animi nisi, dolorem dolores quidem?
-				</p>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis animi nisi, dolorem dolores quidem?
-				</p>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis animi nisi, dolorem dolores quidem?
-				</p>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis animi nisi, dolorem dolores quidem?
-				</p>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis animi nisi, dolorem dolores quidem?
-				</p>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis animi nisi, dolorem dolores quidem?
-				</p>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis animi nisi, dolorem dolores quidem?
-				</p>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore omnis animi nisi, dolorem dolores quidem?
-				</p>
-			</section>
-		</section>
 	</main>
-	<footer>
-		Strona domowa, WTF: co ten frontend 2019
+	<footer class="footer">
+		<p class="footer__information">(C) Copoyright by Graffiti-Man</p>
 	</footer>
+	<script src="main.js"></script>
 </body>
 
 </html>
